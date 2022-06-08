@@ -296,9 +296,17 @@ main #wallet .w-container .w-row .w-right ul li span {
   margin-right: 30px;
   width: 48px;
   height: 48px;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 main #wallet .w-container .w-row .w-right ul li p {
@@ -449,9 +457,17 @@ main #nfts .n-container .n-row-2 ul li span {
   margin-right: 30px;
   width: 48px;
   height: 48px;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 main #nfts .n-container .n-row-2 ul li p {
